@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+</head>
+<h1>Greenland's Plywood Company</h1>
+<body>
+    <header>
+        <div class="inner-width">
+            <a href="#" class="logo"><img src="WhatsApp Image 2021-09-26 at 11.42.22 PM.jpeg" alt=""></a>
+            <i class="menu-toggle-btn fas fa-bars"></i>
+            <nav class="navigation-menu">
+                <a href="#"><i class="fas fa-home home"></i> Home</a>
+                <a href="#"><i class="fas fa-align-left about"></i> About</a>
+                <a href="#"><i class="fab fa-buffer works"></i> Works</a>
+                <a href="#"><i class="fas fa-users team"></i> Team</a>
+                <a href="#"><i class="fas fa-headset contact"></i> Contact</a>
+               
+            </nav>
+        </div>
+    </header>
+    <p>Greenland Plywood presents the wood of each quality and in the all regions .</p>
+    <script type="text/javascript">
+        $(".menu-toggle-btn").click(function(){
+            $(this).toggleClass("fa-times");
+            $(".navigation-menu").toggleClass("active")
+        });
+    </script>
+</body>
+</html>
